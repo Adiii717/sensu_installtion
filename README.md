@@ -1,4 +1,4 @@
-# Project Title
+# Sensu Installtion with Dependency
 
 Install Sensu on your AWS EC2 linux based instnace 
 
