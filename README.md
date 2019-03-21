@@ -1,6 +1,24 @@
-# Sensu Installtion with Dependency
+# Sensu Installation with Dependency
 
-Install Sensu on your AWS EC2 linux based instnace 
+Install Sensu on your AWS EC2 linux 2 based instance
+Remember AWS EC2 Linux Version 1 don't support `systemd` so we will not be able to start services on version 1
+
+## To Check Version
+```
+[ec2-user@ip-172-30-0-61 ~]$ cat /etc/os-release
+NAME="Amazon Linux AMI"
+VERSION="2018.03"
+ID="amzn"
+ID_LIKE="rhel fedora"
+VERSION_ID="2018.03"
+PRETTY_NAME="Amazon Linux AMI 2018.03"
+ANSI_COLOR="0;33"
+CPE_NAME="cpe:/o:amazon:linux:2018.03:ga"
+HOME_URL="http://aws.amazon.com/amazon-linux-ami/"
+
+[ec2-user@ip-172-30-0-61 ~]$ sudo systemd
+sudo: systemd: command not found  
+```
 
 ## Getting Started
 
