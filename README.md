@@ -1,7 +1,8 @@
 # Sensu Installation with Dependency
 
 Install Sensu on your AWS EC2 linux 2 based instance
-Remember AWS EC2 Linux Version 1 don't support `systemd` so we will not be able to start services on version 1
+
+Remember AWS EC2 Linux Version 1 don't support `systemd`
 
 ## To Check Version
 ```
