@@ -26,6 +26,7 @@ HOME_URL="http://aws.amazon.com/amazon-linux-ami/"
 [ec2-user@ip-172-30-0-61 ~]$ sudo systemd
 sudo: systemd: command not found  
 ```
+But you can try the above sctipt for work around.
 
 ## Getting Started
 
