@@ -2,7 +2,13 @@
 
 Install Sensu on your AWS EC2 linux 2 based instance
 
-Remember AWS EC2 Linux Version 1 don't support `systemd`
+Remember AWS EC2 Linux Version 1 don't support `systemd`, but you can try this script to make it working.
+
+```vim /etc/init.d/sensu-service or place the below file 
+https://github.com/Adiii717/sensu_installtion/blob/master/etc/init.d/sensu-service
+sudo service sensu-service client start
+sudo service sensu-service client status
+```
 
 ## To Check Version
 ```
